@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="48dp"
+    android:layout_height="fill_parent"
+    android:layout_gravity="right"
+    tools:ignore="RtlHardcoded">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="8dp"
+        android:src="@drawable/ic_baseline_shopping_cart_24"
+        android:contentDescription="@string/app_name" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="7dp"
+        android:background="#FF1744"
+        android:clickable="false"
+        android:includeFontPadding="false"
+        android:padding="2dp"
+        android:text="0"
+        android:textColor="#fff"
+        android:textSize="10sp"
+        tools:ignore="RelativeOverlap,SmallSp" />
+
+</RelativeLayout>
